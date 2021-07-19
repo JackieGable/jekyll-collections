@@ -1,0 +1,8 @@
+---
+layout: default
+title: boats
+---
+{%- assign boats = site.data.boats.items | where: "sell", "Yes" -%}
+{%- for boat in boats -%}
+    <p>Name: {{ boat.name }}</p>
+{%- endfor -%}

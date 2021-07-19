@@ -1,0 +1,17 @@
+---
+title: covers
+layout: default
+---
+
+<h2>Single cover</h2>
+{%- assign covers = site.covers | where: 'title', 'Title 102' -%}
+{% for cover in covers %}
+    <h1>Number: {{ cover.title }}</h1>
+{% endfor %}
+
+<h2>ALL COVERS</h2>
+{% for cover in site.covers %}
+    <h1>Number {{ cover.number }}</h1>
+    <img src="{{- cover.primaryImage | relative_url -}}" alt="">
+    <p>{{ cover.content | markdownify }}</p>
+{% endfor %}

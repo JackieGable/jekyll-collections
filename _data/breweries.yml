@@ -1,0 +1,12 @@
+items:
+    - title: Anchor Steam Brewery
+      type: brewery
+      sub-type: na
+      location: San Francisco
+      Description: "Learn the traditions of this famous brewery..."
+    - title: Magnolia Brewery
+      type: restaurant
+      sub-type: restaurant
+      location: San Francisco
+      description: "Tucked away in a corner in the historic Haight Ashbury district there lies a gem of a brewery and restaurant...."
+      

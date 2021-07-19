@@ -1,0 +1,8 @@
+---
+title: All Breweries (data)
+layout: default
+---
+
+{% for brewery in site.data.breweries.items %}
+    <h1>Name: {{ brewery.title }}</h1>
+{% endfor %}

@@ -1,0 +1,8 @@
+items:
+    - title: boat.md
+      name: Azimut
+      sell: "Yes"
+    - title: boat2.md
+      name: Azimut2
+      sell:
+      

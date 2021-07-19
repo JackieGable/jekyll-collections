@@ -1,0 +1,9 @@
+---
+title: Restaurants
+layout: default
+---
+
+{%- assign breweries = site.breweries| where: "sub-type", "restaurant" -%}
+{% for brewery in breweries %}
+    <h1>Name: {{ brewery.title }}</h1>
+{% endfor %}
