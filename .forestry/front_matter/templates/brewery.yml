@@ -1,0 +1,16 @@
+---
+label: Brewery
+hide_body: false
+fields:
+- type: text
+  name: title
+  label: title
+- type: text
+  name: type
+  label: type
+- type: text
+  name: sub-type
+  label: sub-type
+- type: text
+  name: location
+  label: location
